@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .container {
+            width: 500px;
+            margin: 50px auto 0;
+        }
+
+        img.pic {
+            width: 100%;
+            pointer-events: none;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+            }
+
+            img.pic {
+                width: 90%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<div style="margin:0 auto;width:0px;height:0px;overflow:hidden;">
+    <img src="img/wechat.jpg" alt=""/>
+</div>
+<div class="container">
+    <img src="img/logo.png" alt="" class="pic"/>
+</div>
+<div class="container">
+    <img src="img/map.png" alt="" class="pic"/>
+</div>
+</body>
+</html>
